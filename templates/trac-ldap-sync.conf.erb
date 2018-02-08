@@ -1,0 +1,17 @@
+[ldap]
+ldap_uri = ldap://<%= @ldap_host %>:<%= @ldap_port %>
+bind_dn = <%= @ldap_binddn %>
+bind_pw = <%= @ldap_bindpw %>
+basedn = <%= @ldap_user_basedn %>
+
+[database]
+db_user = <%= @db_user_name %>
+db_password = <%= @db_user_password %>
+db_host = localhost
+db_port = 5432
+db_name = <%= @db_name %>
+
+[email]
+source = <%= @source_email %>
+target = <%= @target_email %>
+smtp_host = localhost
