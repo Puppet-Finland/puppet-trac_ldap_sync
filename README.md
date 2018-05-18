@@ -20,7 +20,7 @@ This class takes a bunch of parameters related to LDAP, PostgreSQL and SMTP:
         ldap_binddn       => 'cn=proxy,dc=example,dc=org',
         ldap_bindpw       => 'secret',
         ldap_user_basedn  => 'ou=People,dc=example,dc=org',
-        source_email      => 'trac@trac.example.org',
+        source_email      => 'trac@example.org',
         target_email      => 'monitor@example.org',
     }
 
