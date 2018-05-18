@@ -2,7 +2,7 @@
   "name": "puppetfinland-trac_ldap_sync",
   "version": "1.0.0",
   "author": "Puppet-Finland team",
-  "license": "BSD license",
+  "license": "BSD-2-Clause",
   "summary": "Setup trac-ldap-sync",
   "source": "https://github.com/Puppet-Finland/puppet-trac_ldap_sync.git",
   "project_page": "https://github.com/Puppet-Finland/puppet-trac_ldap_sync",
